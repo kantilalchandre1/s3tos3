@@ -1,7 +1,7 @@
 import json
 import boto3
 
-s3_client = boto3.client(
+client = boto3.client(
     's3',
     aws_access_key_id='AKIA6OXVQAOSU7PXS6PW',
     aws_secret_access_key='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',
